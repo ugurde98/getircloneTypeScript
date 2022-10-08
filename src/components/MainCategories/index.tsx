@@ -3,8 +3,10 @@ import { View, StyleSheet } from "react-native";
 import CategoryItem from "../CategoryItem";
 import categoriesGetir from "../../../assets/categoriesGetir";
 import { Category } from "../../models";
+
 function index() {
   const [categories, setCategories] = useState<Category[]>(categoriesGetir);
+  
 
   return (
     <View style={{ backgroundColor: "#F5F5F5" }}>
